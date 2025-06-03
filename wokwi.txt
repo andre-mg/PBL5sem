@@ -1,0 +1,259 @@
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+// ---------- CONFIGURAÇÕES INICIAIS (PARA EDITAR) ----------
+// Credenciais da rede Wi-Fi
+const char* default_SSID           = "Wokwi-GUEST";   // Nome da rede Wi-Fi
+const char* default_PASSWORD       = "";               // Senha da rede Wi-Fi (se houver)
+
+// Dados do Broker MQTT
+const char* default_BROKER_MQTT     = "35.169.152.96"; // IP do Broker MQTT
+const int   default_BROKER_PORT     = 1883;            // Porta do Broker MQTT
+
+// Tópicos MQTT
+const char* default_TOPICO_SUBSCRIBE  = "/TEF/lamp001/cmd";   // Tópico MQTT de escuta (LED)
+const char* default_TOPICO_PUBLISH_1  = "/TEF/lamp001/attrs"; // Tópico MQTT de envio (valor do potenciômetro)
+
+// ID do cliente MQTT
+const char* default_ID_MQTT = "fiware_001"; // ID MQTT
+
+// Pino do LED onboard (ESP32 geralmente usa GPIO 2)
+const int default_D4 = 2;
+
+// ----- Configuração do Potenciômetro -----
+// OBS: GPIO 16 NÃO POSSUI ADC no ESP32, por isso trocamos para GPIO 34
+const int POT_PIN = 34;  // Pino analógico (ADC) onde o potenciômetro está conectado
+
+// Prefixo para montar mensagens de ligar/desligar (LED)
+const char* topicPrefix = "lamp001";
+
+// Variáveis para configurações editáveis
+char* SSID            = const_cast<char*>(default_SSID);
+char* PASSWORD        = const_cast<char*>(default_PASSWORD);
+char* BROKER_MQTT      = const_cast<char*>(default_BROKER_MQTT);
+int   BROKER_PORT      = default_BROKER_PORT;
+char* TOPICO_SUBSCRIBE = const_cast<char*>(default_TOPICO_SUBSCRIBE);
+char* TOPICO_PUBLISH_1 = const_cast<char*>(default_TOPICO_PUBLISH_1);
+char* ID_MQTT          = const_cast<char*>(default_ID_MQTT);
+int   D4               = default_D4;
+
+// Objeto cliente Wi-Fi e MQTT
+WiFiClient    espClient;
+PubSubClient  MQTT(espClient);
+
+// Estado atual do LED ('0' = desligado, '1' = ligado)
+char EstadoSaida = '0';
+
+// -------------------------------------------------------------------
+// Função: inicializarSerial
+// Descrição: Inicializa a comunicação serial em 115200 bps para debug.
+// -------------------------------------------------------------------
+void inicializarSerial() {
+    Serial.begin(115200);
+}
+
+// -------------------------------------------------------------------
+// Função: reconectarWiFi
+// Descrição: Tenta conectar à rede Wi-Fi configurada. Se já estiver
+// conectado, retorna imediatamente. Caso contrário, faz tentativas até
+// obter conexão e exibe status no monitor serial.
+// -------------------------------------------------------------------
+void reconectarWiFi() {
+    if (WiFi.status() == WL_CONNECTED) {
+        return; // Já está conectado
+    }
+    WiFi.begin(SSID, PASSWORD);
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(100);
+        Serial.print("."); // Pontinhos enquanto tenta conectar
+    }
+    Serial.println();
+    Serial.println("Conectado à rede Wi-Fi:");
+    Serial.print("  SSID: ");
+    Serial.println(SSID);
+    Serial.print("  IP obtido: ");
+    Serial.println(WiFi.localIP());
+
+    // Garante que o LED inicie desligado após conectar
+    digitalWrite(D4, LOW);
+}
+
+// -------------------------------------------------------------------
+// Função: configurarWiFi
+// Descrição: Exibe mensagem inicial e chama a rotina de reconexão.
+// -------------------------------------------------------------------
+void configurarWiFi() {
+    delay(10);
+    Serial.println("------ Iniciando conexão Wi-Fi ------");
+    Serial.print("Tentando conectar na rede: ");
+    Serial.println(SSID);
+    Serial.println("Aguarde...");
+    reconectarWiFi();
+}
+
+// -------------------------------------------------------------------
+// Função: mqtt_callback
+// Descrição: Executada quando uma mensagem é recebida no tópico inscrito.
+//              Interpreta a mensagem para ligar/desligar o LED.
+// Parâmetros:
+//   - topic: ponteiro para o nome do tópico que recebeu a mensagem.
+//   - payload: bytes da mensagem recebida.
+//   - length: tamanho da mensagem.
+// -------------------------------------------------------------------
+void mqtt_callback(char* topic, byte* payload, unsigned int length) {
+    String msg;
+    for (unsigned int i = 0; i < length; i++) {
+        msg += (char)payload[i];
+    }
+    Serial.print("- Mensagem recebida: ");
+    Serial.println(msg);
+
+    // Monta o padrão para comparação: "lamp001@on|" ou "lamp001@off|"
+    String onTopic  = String(topicPrefix) + "@on|";
+    String offTopic = String(topicPrefix) + "@off|";
+
+    if (msg.equals(onTopic)) {
+        digitalWrite(D4, HIGH);
+        EstadoSaida = '1';
+    }
+    else if (msg.equals(offTopic)) {
+        digitalWrite(D4, LOW);
+        EstadoSaida = '0';
+    }
+}
+
+// -------------------------------------------------------------------
+// Função: reconectarMQTT
+// Descrição: Tenta reconectar ao broker MQTT caso a conexão caia.
+//              Assina o tópico de comando após conectar.
+// -------------------------------------------------------------------
+void reconectarMQTT() {
+    while (!MQTT.connected()) {
+        Serial.print("* Tentando conectar ao broker MQTT: ");
+        Serial.println(BROKER_MQTT);
+        if (MQTT.connect(ID_MQTT)) {
+            Serial.println("Conectado ao broker MQTT com sucesso!");
+            MQTT.subscribe(TOPICO_SUBSCRIBE);
+        } else {
+            Serial.println("Falha ao conectar no broker. Tentando novamente em 2s...");
+            delay(2000);
+        }
+    }
+}
+
+// -------------------------------------------------------------------
+// Função: configurarMQTT
+// Descrição: Define servidor MQTT e callback para receber mensagens.
+// -------------------------------------------------------------------
+void configurarMQTT() {
+    MQTT.setServer(BROKER_MQTT, BROKER_PORT);
+    MQTT.setCallback(mqtt_callback);
+}
+
+// -------------------------------------------------------------------
+// Função: verificarConexoes
+// Descrição: Garante que a conexão Wi-Fi e MQTT estejam ativas.
+//              Se alguma estiver desconectada, tenta reconectar.
+// -------------------------------------------------------------------
+void verificarConexoes() {
+    if (!MQTT.connected()) {
+        reconectarMQTT();
+    }
+    reconectarWiFi();
+}
+
+// -------------------------------------------------------------------
+// Função: enviarEstadoLED
+// Descrição: Publica o estado atual do LED ('s|on' ou 's|off') no tópico
+//             de publicação 1. Exibe mensagem no serial e aguarda 1s.
+// -------------------------------------------------------------------
+void enviarEstadoLED() {
+    if (EstadoSaida == '1') {
+        MQTT.publish(TOPICO_PUBLISH_1, "s|on");
+        Serial.println("- LED está LIGADO");
+    }
+    else {
+        MQTT.publish(TOPICO_PUBLISH_1, "s|off");
+        Serial.println("- LED está DESLIGADO");
+    }
+    Serial.println("- Estado do LED publicado no broker!");
+    delay(1000);
+}
+
+// -------------------------------------------------------------------
+// Função: InitOutput
+// Descrição: Configura o pino do LED como saída e faz uma rápida piscada
+//             de demonstração (LED pisca 10 vezes de 200ms).
+// -------------------------------------------------------------------
+void InitOutput() {
+    pinMode(D4, OUTPUT);
+    digitalWrite(D4, HIGH);
+    bool toggle = false;
+    for (int i = 0; i < 10; i++) {
+        toggle = !toggle;
+        digitalWrite(D4, toggle ? HIGH : LOW);
+        delay(200);
+    }
+    // Ao final, LED ficará em HIGH, mas reconectarWiFi() logo o colocará em LOW.
+}
+
+// -------------------------------------------------------------------
+// Função: handlePotenciometro
+// Descrição: Lê o valor analógico do potenciômetro, converte para faixa
+//             0–100 e publica no broker MQTT no tópico configurado.
+// -------------------------------------------------------------------
+void handlePotenciometro() {
+    // Lê o valor bruto do ADC (0–4095 no ESP32)
+    int valorBruto = analogRead(POT_PIN);
+
+    // Converte o valor bruto (0–4095) para "temperatura" (0–100 °C)
+    int temperaturaSimulada = map(valorBruto, 0, 4095, 0, 100);
+
+    // Imprime no Serial Monitor
+    Serial.print("Leitura bruta do potenciômetro: ");
+    Serial.print(valorBruto);
+    Serial.print(" → Valor convertido (0–100): ");
+    Serial.println(temperaturaSimulada);
+
+    // Publica no tópico no formato UltraLight: "t|<valor>"
+    String payload = "t|" + String(temperaturaSimulada);
+    if (MQTT.publish(TOPICO_PUBLISH_1, payload.c_str())) {
+        Serial.print("Dados enviados: ");
+        Serial.println(payload);
+    } else {
+        Serial.println("Falha ao publicar!");
+    }
+
+    delay(2000); // Intervalo entre leituras
+}
+
+// -------------------------------------------------------------------
+// Função: setup
+// Descrição: Executada uma vez na inicialização. Configura saída LED,
+// inicializa Serial, Wi-Fi, MQTT, configura pinMode do potenciômetro e
+// publica estado inicial do LED.
+// -------------------------------------------------------------------
+void setup() {
+    InitOutput();
+    inicializarSerial();
+    configurarWiFi();
+    configurarMQTT();
+
+    // Configura o pino do potenciômetro como entrada analógica
+    pinMode(POT_PIN, INPUT);
+
+    delay(5000); // Aguarda estabilizar conexões
+    MQTT.publish(TOPICO_PUBLISH_1, "s|on"); // Publica estado inicial do LED
+}
+
+// -------------------------------------------------------------------
+// Função: loop
+// Descrição: Loop principal: verifica conexões, envia estado do LED,
+// lê e publica valor do potenciômetro a cada ciclo, e processa callbacks.
+// -------------------------------------------------------------------
+void loop() {
+    verificarConexoes();
+    enviarEstadoLED();
+    handlePotenciometro();
+    MQTT.loop();
+}
