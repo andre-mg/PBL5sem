@@ -1,0 +1,370 @@
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.runtime.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.endpoints.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.exe
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.deps.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.runtimeconfig.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.pdb
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.AssemblyReference.cache
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfoInputs.cache
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfo.cs
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.CoreCompileInputs.cache
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cache
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cs
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Form.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Index.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Login\Index.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\bundle\PBL5sem.styles.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\projectbundle\PBL5sem.bundle.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.build.PBL5sem.props
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PBL5sem.props
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PBL5sem.props
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.Up2Date
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\refint\PBL5sem.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.pdb
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.genruntimeconfig.cache
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\ref\PBL5sem.dll
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Form.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Index.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Form.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Index.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Form.cshtml.rz.scp.css
+C:\Users\monar\source\repos\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Index.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.runtime.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.exe
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.deps.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.runtimeconfig.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.pdb
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.AssemblyReference.cache
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfoInputs.cache
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfo.cs
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.CoreCompileInputs.cache
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cache
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cs
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.build.PBL5sem.props
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PBL5sem.props
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PBL5sem.props
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Form.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Index.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Form.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Index.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Form.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Index.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Login\Index.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Form.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Index.cshtml.rz.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\bundle\PBL5sem.styles.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\projectbundle\PBL5sem.bundle.scp.css
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.Up2Date
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\refint\PBL5sem.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.pdb
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.genruntimeconfig.cache
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\ref\PBL5sem.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\081230012\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Monitoramento.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.runtime.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.exe
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.deps.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.runtimeconfig.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.pdb
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.AssemblyReference.cache
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfoInputs.cache
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfo.cs
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.CoreCompileInputs.cache
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cache
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cs
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.build.PBL5sem.props
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PBL5sem.props
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PBL5sem.props
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Form.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Form.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Form.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Login\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Form.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\bundle\PBL5sem.styles.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\projectbundle\PBL5sem.bundle.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.Up2Date
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\refint\PBL5sem.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.pdb
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.genruntimeconfig.cache
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\ref\PBL5sem.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Dynamic.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Scripting.Metadata.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Scripting.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.Modules.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.SQLite.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.Wpf.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\Mono.Unix.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-arm\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-arm64\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-x64\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-x86\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-arm\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-arm64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-armv7s\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-arm\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-arm64\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-x64\native\libMono.Unix.so
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\osx-arm64\native\libMono.Unix.dylib
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\osx-x64\native\libMono.Unix.dylib
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\tvos-arm64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\tvossimulator-x64\native\libMono.Unix.a
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Grafico\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\ScottPlot.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.AssemblyReference.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfoInputs.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfo.cs
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.CoreCompileInputs.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cs
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\refint\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.pdb
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.runtime.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.endpoints.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.exe
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.deps.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.runtimeconfig.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.pdb
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Dynamic.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Scripting.Metadata.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Scripting.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.Modules.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.SQLite.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.Wpf.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Mono.Unix.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\ScottPlot.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-arm\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-arm64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-x64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-x86\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-arm\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-armv7s\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-arm\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-arm64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-x64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\osx-arm64\native\libMono.Unix.dylib
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\osx-x64\native\libMono.Unix.dylib
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\tvos-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\tvossimulator-x64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Monitoramento.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Grafico\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Login\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\bundle\PBL5sem.styles.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\projectbundle\PBL5sem.bundle.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.build.PBL5sem.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PBL5sem.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PBL5sem.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.Up2Date
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.genruntimeconfig.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\obj\Debug\net8.0\ref\PBL5sem.dll
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\refint\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.pdb
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\appsettings.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.runtime.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.staticwebassets.endpoints.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.exe
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.deps.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.runtimeconfig.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\PBL5sem.pdb
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Dynamic.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Scripting.Metadata.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Scripting.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.Modules.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.SQLite.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.Wpf.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\IronPython.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\Mono.Unix.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\ScottPlot.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-arm\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-arm64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-x64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\android-x86\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-arm\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\ios-armv7s\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-arm\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-arm64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\linux-x64\native\libMono.Unix.so
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\osx-arm64\native\libMono.Unix.dylib
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\osx-x64\native\libMono.Unix.dylib
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\tvos-arm64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\tvossimulator-x64\native\libMono.Unix.a
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.AssemblyReference.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfoInputs.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.AssemblyInfo.cs
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.CoreCompileInputs.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.RazorAssemblyInfo.cs
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Empresa\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\EspDevice\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Estufa\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Grafico\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Login\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Form.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Usuario\Index.cshtml.rz.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\bundle\PBL5sem.styles.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\projectbundle\PBL5sem.bundle.scp.css
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.PBL5sem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.build.PBL5sem.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PBL5sem.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PBL5sem.props
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.csproj.Up2Date
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\PBL5sem.genruntimeconfig.cache
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\ref\PBL5sem.dll
+C:\Users\monar\OneDrive - Fundação Salvador Arena\EC5\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Monitoramento\Index.cshtml.rz.scp.css
+C:\Users\081230012\Downloads\PBL5sem\PBL5sem\PBL5sem\obj\Debug\net8.0\scopedcss\Views\Monitoramento\Index.cshtml.rz.scp.css

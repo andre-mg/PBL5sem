@@ -1,0 +1,178 @@
+﻿@model EstufaViewModel
+@{
+    ViewData["Title"] = $"Monitoramento - {Model.Nome}";
+}
+
+<div class="container">
+    <h2>Monitoramento da Estufa: @Model.Nome</h2>
+    <hr />
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Temperatura Atual</h5>
+                    <div class="d-flex align-items-center">
+                        <h1 id="temperaturaAtual" class="display-3 mr-3">@(ViewBag.TemperaturaAtual?.ToString("N1") ?? "--")</h1>
+                        <span class="display-4">°C</span>
+                    </div>
+                    <small id="ultimaAtualizacao" class="text-white-50">@DateTime.Now.ToString("dd/MM/yyyy HH:mm")</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="timezone-select">Fuso Horário:</label>
+        <select id="timezone-select" class="form-control">
+            <option value="-3">Brasília (GMT-3)</option>
+            <option value="0">UTC (GMT±0)</option>
+            <!-- Outras opções -->
+        </select>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Histórico de Temperatura</h5>
+                </div>
+                <div class="card-body">
+                    <div id="graficoMonitoramento" style="height: 400px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        let grafico;
+        let timeoutId;
+        const intervaloAtualizacao = 5000; // 5 segundos
+        let timezoneOffset = -3; // Padrão GMT-3
+
+        // 1) Função que converte corretamente uma ISO string (UTC) para hora no fuso desejado
+        function converterHorario(isoString, offset) {
+            try {
+                // Cria Date a partir da ISO (isso gera um objeto com horário já em função do fuso local do navegador)
+                const date = new Date(isoString);
+                if (isNaN(date.getTime())) {
+                    console.error('Data inválida:', isoString);
+                    return '--:--:--';
+                }
+                // “Desfaz” o fuso local: pega timestamp UTC puro (ms desde 1970)
+                const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+                // Soma apenas o offset desejado (horas → ms)
+                const nd = new Date(utc + offset * 3600000);
+                return nd.toLocaleTimeString('pt-BR');
+            } catch (e) {
+                console.error('Erro na conversão de horário:', e);
+                return '--:--:--';
+            }
+        }
+
+        function inicializarGrafico() {
+            grafico = document.getElementById('graficoMonitoramento');
+            Plotly.newPlot(grafico, [{
+                x: [],
+                y: [],
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: '#007bff' }
+            }], {
+                margin: { t: 30, l: 50, r: 30, b: 50 },
+                xaxis: { title: 'Horário' },
+                yaxis: { title: 'Temperatura (°C)' }
+            });
+        }
+
+        async function buscarESalvarDados() {
+            try {
+                const response = await fetch(`/Estufa/AtualizarDados?id=@Model.Id`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                if (!response.ok) {
+                    // Se não vier 2xx, exibe no console o texto cru para debug
+                    const texto = await response.text();
+                    throw new Error(`Status ${response.status}: ${texto}`);
+                }
+
+                const result = await response.json();
+                if (!result.success) {
+                    throw new Error(result.error || 'Erro ao atualizar dados');
+                }
+
+                // 2) Se houver histórico, formata cada ponto já no fuso selecionado
+                const historicoFormatado = (result.historico || []).map(item => ({
+                    temperatura: item.temperatura,
+                    horario: converterHorario(item.horario, timezoneOffset)
+                }));
+
+                // 3) Redesenha o gráfico a cada retorno (ou somente quando 'novoDadoInserido'? Aqui vamos atualizar sempre,
+                //    mas se quiser economizar, só chamar Plotly.react quando result.novoDadoInserido for true).
+                if (historicoFormatado.length > 0) {
+                    Plotly.react(grafico, [{
+                        x: historicoFormatado.map(i => i.horario),
+                        y: historicoFormatado.map(i => i.temperatura),
+                        type: 'scatter',
+                        mode: 'lines+markers',
+                        line: { color: '#007bff' }
+                    }], {
+                        margin: { t: 30, l: 50, r: 30, b: 50 },
+                        xaxis: { title: 'Horário' },
+                        yaxis: { title: 'Temperatura (°C)' }
+                    });
+                }
+
+                // 4) Atualiza o campo "Temperatura Atual" (valor numérico)
+                document.getElementById('temperaturaAtual').textContent =
+                    result.temperaturaAtual.toFixed(1).replace('.', ',');
+
+                // 5) Pega o horário do último ponto do histórico (caso exista) e coloca em "Última atualização"
+                if (historicoFormatado.length > 0) {
+                    // como o controller faz OrderBy(h.DataHora) asc, o último elemento é o mais recente
+                    const ultimoPonto = historicoFormatado[historicoFormatado.length - 1];
+                    document.getElementById('ultimaAtualizacao').textContent =
+                        `Última atualização: ${ultimoPonto.horario}`;
+                } else {
+                    // se não tiver histórico (inicial), apenas limpa ou mostra algo neutro:
+                    document.getElementById('ultimaAtualizacao').textContent =
+                        'Última atualização: --:--:--';
+                }
+
+            } catch (error) {
+                console.error('Erro em buscarESalvarDados():', error);
+                document.getElementById('ultimaAtualizacao').textContent =
+                    `Erro: ${error.message}`;
+            } finally {
+                timeoutId = setTimeout(buscarESalvarDados, intervaloAtualizacao);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            inicializarGrafico();
+            buscarESalvarDados();
+
+            // Quando trocar o fuso, refaz a busca imediatamente para atualizar tudo
+            document.getElementById('timezone-select').addEventListener('change', function () {
+                timezoneOffset = parseInt(this.value);
+                clearTimeout(timeoutId);
+                buscarESalvarDados();
+            });
+
+            // Botão “Atualizar” manual
+            document.getElementById('btnAtualizar').addEventListener('click', () => {
+                clearTimeout(timeoutId);
+                buscarESalvarDados();
+            });
+        });
+
+        window.addEventListener('beforeunload', () => {
+            clearTimeout(timeoutId);
+        });
+    </script>
+}

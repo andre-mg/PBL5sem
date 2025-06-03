@@ -1,0 +1,58 @@
+﻿@model EspDeviceViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = ViewBag.Operacao == "I" ? "Cadastrar Dispositivo ESP" : "Editar Dispositivo ESP";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Save" method="post" class="col-md-6" novalidate>
+    <input type="hidden" name="Operacao" value="@ViewBag.Operacao" />
+
+    <div class="form-group">
+        <label asp-for="Id" class="control-label"></label>
+        @if (ViewBag.Operacao == "I")
+        {
+            <input asp-for="Id" class="form-control" />
+        }
+        else
+        {
+            <input asp-for="Id" class="form-control" readonly />
+        }
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EnderecoIP" class="control-label"></label>
+        <input asp-for="EnderecoIP" class="form-control" placeholder="Ex: 192.168.1.1" />
+        <span asp-validation-for="EnderecoIP" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+        <a href="/EspDevice" class="btn btn-secondary">Voltar</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        // Desabilita a validação automática do jQuery
+        $.validator.setDefaults({
+            ignore: []
+        });
+
+        // Mostra todas as mensagens de erro
+        $(document).ready(function() {
+            $('form').each(function() {
+                $(this).data('validator', null);
+            });
+            $.validator.unobtrusive.parse($('form'));
+        });
+    </script>
+}

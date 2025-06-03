@@ -1,0 +1,93 @@
+﻿@using PBL5sem.Controllers
+@model List<EmpresaViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Listagem de Empresas";
+}
+
+<h2>Listagem de Empresas</h2>
+
+@if (HelperControllers.VerificaCargo(Context.Session, 1)) // 1 = Admin
+{
+    <a href="/Empresa/Create" class="btn btn-primary mb-3">
+        <i class="fas fa-plus"></i> Nova Empresa
+    </a>
+}
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Ações</th>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Logo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var empresa in Model)
+        {
+            <tr>
+                <td>
+                    @if (HelperControllers.VerificaCargo(Context.Session, 1))
+                    {
+                        <a href="/Empresa/Edit?id=@empresa.Id" class="btn btn-info btn-sm">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <button onclick="confirmarExclusao(@empresa.Id)" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Apenas visualização</span>
+                    }
+                </td>
+                <td>@empresa.Id</td>
+                <td>@empresa.Nome</td>
+                <td>
+                    @if (empresa.Logo != null)
+                    {
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(empresa.Logo)"
+                             class="img-thumbnail" style="max-width: 100px;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">Sem logo</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function confirmarExclusao(id) {
+        fetch(`/Empresa/GetUsuariosAssociados?id=${id}`)
+            .then(response => {
+                if (!response.ok) throw new Error('Erro ao verificar usuários');
+                return response.json();
+            })
+            .then(usuarios => {
+                let mensagem = 'CONFIRMAÇÃO DE EXCLUSÃO\n\n';
+                mensagem += 'Esta ação irá remover:\n';
+                mensagem += `- Empresa (ID: ${id})\n`;
+
+                if (usuarios.length > 0) {
+                    mensagem += `- ${usuarios.length} usuário(s) vinculado(s):\n`;
+                    usuarios.forEach(u => mensagem += `  * ${u.nome} (${u.email}, ID: ${u.id})\n`);
+                }
+
+                mensagem += '\nDeseja continuar?';
+
+                if (confirm(mensagem)) {
+                    location.href = `/Empresa/Delete?id=${id}`;
+                }
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                if (confirm('Erro ao verificar usuários. Deseja continuar com a exclusão da empresa?')) {
+                    location.href = `/Empresa/Delete?id=${id}`;
+                }
+            });
+    }
+</script>

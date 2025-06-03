@@ -1,0 +1,88 @@
+﻿@using PBL5sem.Controllers
+@model List<EstufaViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Listagem de Estufas";
+}
+
+<h2>Listagem de Estufas</h2>
+
+@if (HelperControllers.VerificaCargo(Context.Session, 1)) // 1 ADMIN
+{
+    <a href="/Estufa/Create" class="btn btn-info">
+        <i class="fas fa-plus"></i> Nova Estufa
+    </a>
+}
+<br />
+
+<table class="table table-responsive table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>Ações</th>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Temperatura Ideal (°C)</th>
+            <th>IP da AWS</th>
+            <th>ID do ESP</th>
+            <th>Nome do ESP</th>
+            <th>IP do ESP</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estufa in Model)
+        {
+            <tr>
+                <td class="text-nowrap">
+                    @if (HelperControllers.VerificaCargo(Context.Session, 1))
+                    {
+                        <a href="/Estufa/Edit?id=@estufa.Id" class="btn btn-sm btn-primary" title="Editar">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <button onclick="confirmaExclusao(@estufa.Id)" class="btn btn-sm btn-danger" title="Excluir">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    }
+                    <a href="/Monitoramento/Index?id=@estufa.Id" class="btn btn-primary btn-sm">
+                        <i class="fas fa-chart-line"></i> Monitorar
+                    </a>
+                </td>
+
+                <td>@estufa.Id</td>
+                <td>@estufa.Nome</td>
+                <td>@estufa.TemperaturaIdeal.ToString("0.00")</td>
+                <td>@estufa.AwsIP</td>
+                <td>@estufa.EspId</td>
+                <td>@estufa.EspNome</td>
+                <td>@estufa.EspEnderecoIP</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script>
+    function confirmaExclusao(id) {
+        if (confirm('Tem certeza que deseja apagar esta estufa?')) {
+            location.href = '/Estufa/Delete?id=' + id;
+        }
+    }
+</script>
+
+@section Styles {
+    <style>
+        .table th {
+            vertical-align: middle;
+        }
+
+        .table td {
+            vertical-align: middle;
+        }
+
+        .btn-sm {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            border-radius: 0.2rem;
+        }
+    </style>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PBL5sem.props" />
+</Project>

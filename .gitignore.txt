@@ -1,0 +1,18 @@
+# Arquivos do Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Arquivos de configuração local
+appsettings.Development.json
+
+# Banco de dados
+*.mdf
+*.ldf
+*.bak
+
+# Outros
+node_modules/
+.DS_Store

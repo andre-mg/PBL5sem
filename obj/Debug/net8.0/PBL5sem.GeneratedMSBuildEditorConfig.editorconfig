@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PBL5sem
+build_property.RootNamespace = PBL5sem
+build_property.ProjectDir = C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\monar\OneDrive - Fundação Salvador Arena\PBL5sem\PBL5sem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Empresa/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-0go4bakk3q
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Empresa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-skos3x2lcw
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/EspDevice/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwRGV2aWNlXEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eb8cghbzht
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/EspDevice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwRGV2aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-3wzdppquht
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Estufa/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWZhXEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eqdwb29lcr
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Estufa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWZhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-tw0dq4xzbi
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Grafico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZmljb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-9vbtdyples
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z00xdgmjpj
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Monitoramento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRvcmFtZW50b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hhrr84i3s3
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-42jwqh84fb
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Usuario/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-vha64soacp
+
+[C:/Users/monar/OneDrive - Fundação Salvador Arena/PBL5sem/PBL5sem/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-auwq5r5iq5

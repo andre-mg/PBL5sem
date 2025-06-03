@@ -1,0 +1,97 @@
+﻿@using PBL5sem.Controllers
+@model List<EspDeviceViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Listagem de Dispositivos ESP";
+}
+
+<h2>Listagem de Dispositivos ESP</h2>
+
+@if (HelperControllers.VerificaCargo(Context.Session, 1))
+{
+    <a href="/EspDevice/Create" class="btn btn-info">
+        <i class="fas fa-plus"></i> Novo Dispositivo
+    </a>
+}
+<br />
+
+<table class="table table-responsive table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>Ações</th>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Endereço IP</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var esp in Model)
+        {
+            <tr>
+                <td class="text-nowrap">
+                    @if (HelperControllers.VerificaCargo(Context.Session, 1))
+                    {
+                        <a href="/EspDevice/Edit?id=@esp.Id" class="btn btn-sm btn-primary" title="Editar">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <button onclick="confirmaExclusao(@esp.Id)" class="btn btn-sm btn-danger" title="Excluir">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Apenas Administradores</span>
+                    }
+                </td>
+
+                <td>@esp.Id</td>
+                <td>@esp.Nome</td>
+                <td>@esp.EnderecoIP</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+        function confirmaExclusao(id) {
+        fetch(`/EspDevice/GetEstufasAssociadas?id=${id}`)
+            .then(response => {
+                if (!response.ok) throw new Error('Erro ao verificar estufas');
+                return response.json();
+            })
+            .then(estufas => {
+                let mensagem = 'CONFIRMAÇÃO DE EXCLUSÃO\n\n';
+                mensagem += 'Esta ação irá remover:\n';
+                mensagem += `- Dispositivo ESP (ID: ${id})\n`;
+
+                if (estufas.length > 0) {
+                    mensagem += `- ${estufas.length} estufa(s) vinculada(s):\n`;
+                    estufas.forEach(e => mensagem += `  * ${e.nome} (ID: ${e.id})\n`);
+                }
+
+                mensagem += '\nDeseja continuar?';
+
+                if (confirm(mensagem)) {
+                    location.href = `/EspDevice/Delete?id=${id}`;
+                }
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                if (confirm('Erro ao verificar estufas. Deseja continuar com a exclusão do ESP?')) {
+                    location.href = `/EspDevice/Delete?id=${id}`;
+                }
+            });
+    }
+</script>
+
+@section Styles {
+    <style>
+        .table th, .table td {
+            vertical-align: middle;
+        }
+
+        .btn-sm {
+            padding: 0.25rem 0.5rem;
+        }
+    </style>
+}

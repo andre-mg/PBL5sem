@@ -1,0 +1,50 @@
+﻿@using PBL5sem.Controllers
+@{
+    ViewData["Title"] = "Página Inicial";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindx ao nosso projeto de PBL</h1>
+    <h2>Faculdade Engenheiro Salvador Arena</h2>
+
+    @if (!HelperControllers.VerificaUserLogado(Context.Session))
+    {
+        <div class="mt-4">
+            <p>Faça seu Login em: <a asp-controller="Login" asp-action="Index" class="btn btn-primary">Login</a></p>
+        </div>
+    }
+
+    <div class="mt-5">
+        <h3>Integrantes:</h3>
+        <table class="table table-bordered table-hover" style="max-width: 600px; margin: 0 auto;">
+            <thead class="thead-light">
+                <tr>
+                    <th>Nome</th>
+                    <th>RA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Júlio César Caberlino Ferro</td>
+                    <td>081230003</td>
+                </tr>
+                <tr>
+                    <td>André Mendes Garcia</td>
+                    <td>081230012</td>
+                </tr>
+                <tr>
+                    <td>Caio Silva Alexandria de Araújo</td>
+                    <td>081230014</td>
+                </tr>
+                <tr>
+                    <td>Felipe de Carvalho Medeiros</td>
+                    <td>081230026</td>
+                </tr>
+                <tr>
+                    <td>Matheus Misuo Sato Silva</td>
+                    <td>081230046</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

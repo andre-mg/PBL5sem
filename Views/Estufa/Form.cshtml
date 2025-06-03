@@ -1,0 +1,93 @@
+﻿@model EstufaViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Cadastro de Estufa";
+}
+
+<h2>@(ViewBag.Operacao == "I" ? "Cadastrar" : "Editar") Estufa</h2>
+
+<form asp-action="Save" method="post" class="col-md-6" novalidate>
+    <input type="hidden" name="Operacao" value="@ViewBag.Operacao" />
+
+    <div class="form-group">
+        <label asp-for="Id" class="control-label"></label>
+        @if (ViewBag.Operacao == "I")
+        {
+            <input asp-for="Id" class="form-control" />
+        }
+        else
+        {
+            <input asp-for="Id" class="form-control" readonly />
+        }
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TemperaturaIdeal" class="control-label"></label>
+        <input asp-for="TemperaturaIdeal" class="form-control" type="number" step="0.50" />
+        <span asp-validation-for="TemperaturaIdeal" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AwsIP" class="control-label"></label>
+        <input asp-for="AwsIP" class="form-control" placeholder="Ex: 192.168.1.1" />
+        <span asp-validation-for="AwsIP" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Dispositivo ESP</label>
+
+        <div class="input-group">
+            <select asp-for="EspId" class="form-control">
+                <option value="0">Nenhum ESP associado</option>
+                @foreach (var esp in Model.ESPsDisponiveis)
+                {
+                    <option value="@esp.Id" selected="@(esp.Id == Model.EspId)">
+                        @esp.Nome (@esp.EnderecoIP)
+                    </option>
+                }
+            </select>
+            <div class="input-group-append">
+                <a href="/EspDevice/Create" class="btn btn-outline-secondary" target="_blank">
+                    <i class="fas fa-plus"></i> Novo ESP
+                </a>
+            </div>
+        </div>
+
+        @if (Model.EspId > 0)
+        {
+            <div class="alert alert-info mt-2">
+                ESP atual: @Model.EspNome (@Model.EspEnderecoIP)
+            </div>
+        }
+        <span asp-validation-for="EspId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+        <a href="/Estufa" class="btn btn-secondary">Voltar</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        // Desabilita a validação automática do jQuery
+        $.validator.setDefaults({
+            ignore: []
+        });
+
+        // Mostra todas as mensagens de erro
+        $(document).ready(function() {
+            $('form').each(function() {
+                $(this).data('validator', null);
+            });
+            $.validator.unobtrusive.parse($('form'));
+        });
+    </script>
+}
